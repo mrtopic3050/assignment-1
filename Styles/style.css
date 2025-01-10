@@ -7,11 +7,15 @@
 }
 
 /* body styles */
-body {
+/* body {
     display: flex;
     justify-content: center;
+} */
+.navbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-
 /* navbar header styles */
 .navbar-head {
     display: flex;
