@@ -83,8 +83,7 @@
     align-items: center;
     gap: 64;
     padding: 80px 100px 80px 100px;
-    margin-left: 160px;
-    margin-right: 160px;
+    margin: 0 auto;
 
 }
 
@@ -173,7 +172,20 @@
     height: 62px;
 }
 
-.hero-2 .pillars .pillars-head {
+/* .hero-2 .pillars .pillars-head {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 254px;
+    height: 24px;
+    margin: 12px 0px;
+} */
+
+.pillars-head {
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
     font-size: 20px;
@@ -186,7 +198,7 @@
     margin: 12px 0px;
 }
 
-.hero-2 .pillars .pillars-subtitle {
+.hero-2 .pillars-subtitle {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
@@ -213,4 +225,204 @@
     gap: 32;
     margin-left: 160px;
     margin-top: 80px;
+}
+
+/* Vision Styles */
+
+.vision-container .vision-head {
+    width: 1280px;
+    height: 48px;
+    gap: 24;
+    margin: 24px 0px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 160px;
+    margin-left: 160px;
+    margin-top: 80px;
+}
+
+.vision-container .vision-descrip {
+    width: 1280px;
+    height: 48px;
+    gap: 12;
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 160px;
+    margin-left: 160px;
+    margin-top: 24px;
+}
+
+
+.vision-elements {
+    width: 1280px;
+    height: 325px;
+    gap: 24;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.vision-elements .vision-transform {
+    width: 410.67px;
+    height: 325px;
+    gap: 24;
+    padding: 32px;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.vision-elements .vision-transform:hover{
+    background: rgb(162, 188, 232);
+    color: black;
+    
+}
+
+.vision-elements .vision-subtitle {
+    width: 346.67px;
+    height: 72px;
+    gap: 12;
+    padding: 0px;
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vision-elements .digital-btn {
+    width: 122px;
+    height: 41px;
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+    margin: 24px 0px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vision-elements .digital-btn:hover {
+    background: rgb(48, 91, 167);
+    color: white;
+    cursor: pointer;
+}
+
+.vision-elements .vision-energy {
+    width: 410.67px;
+    height: 325px;
+    gap: 24;
+    padding: 32px;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+    background: rgb(198, 228, 214);
+}
+
+.vision-elements .vision-energy:hover{
+    background: rgb(150, 229, 194);
+    color: white;
+    
+}
+
+.vision-elements .green-btn {
+    width: 122px;
+    height: 41px;
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+    margin: 24px 0px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vision-elements .green-btn:hover {
+    background: rgb(6, 113, 65);
+    color: white;
+    cursor: pointer;
+}
+
+.vision-elements .vision-modern {
+    width: 410.67px;
+    height: 325px;
+    gap: 24;
+    padding: 32px;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+.vision-elements .vision-modern:hover{
+    background: rgb(252, 219, 144);
+    color: white;
+    
+}
+
+.vision-elements .modern-btn {
+    width: 122px;
+    height: 41px;
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+    margin: 24px 0px;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vision-elements .modern-btn:hover {
+    background: rgb(213, 159, 33);
+    color: white;
+    cursor: pointer;
+}
+
+/* Quote styles */
+
+.quote{
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+}
+.quote .quote-write{
+    
 }
