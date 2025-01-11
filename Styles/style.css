@@ -11,11 +11,12 @@
     display: flex;
     justify-content: center;
 } */
-.navbar{
+.navbar {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
+
 /* navbar header styles */
 .navbar-head {
     display: flex;
@@ -137,8 +138,79 @@
 
 }
 
-.navbar-body .navbar-body-button:hover{
+.navbar-body .navbar-body-button:hover {
     background-color: red;
     color: black;
     cursor: pointer;
+}
+
+/* hero-2, pillars style  */
+
+.pillars-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 32px;
+    margin-bottom: 80px;
+}
+
+.hero-2 .pillars {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 302px;
+    height: 244px;
+    gap: 24;
+    padding: 24px;
+    /* margin: 0px 24px; */
+}
+
+.hero-2 .pillars .pillar-icon {
+    width: 62px;
+    height: 62px;
+}
+
+.hero-2 .pillars .pillars-head {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 254px;
+    height: 24px;
+    margin: 12px 0px;
+}
+
+.hero-2 .pillars .pillars-subtitle {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 254px;
+    height: 72px;
+    margin: 12px 0px;
+    gap: 12;
+}
+
+.hero-2 .h2title {
+    width: 1280px;
+    height: 48px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    gap: 32;
+    margin-left: 160px;
+    margin-top: 80px;
 }
