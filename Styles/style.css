@@ -632,3 +632,11 @@
     text-align: left;
 
 }
+
+.recent .recent-element-content .element-btn:hover{
+    background-color: rgb(1, 83, 62);
+    color: red;
+    cursor: pointer;
+
+
+}
