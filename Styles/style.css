@@ -290,10 +290,10 @@
     background: rgba(84, 144, 245, 0.2);
 }
 
-.vision-elements .vision-transform:hover{
+.vision-elements .vision-transform:hover {
     background: rgb(162, 188, 232);
     color: black;
-    
+
 }
 
 .vision-elements .vision-subtitle {
@@ -347,10 +347,10 @@
     background: rgb(198, 228, 214);
 }
 
-.vision-elements .vision-energy:hover{
+.vision-elements .vision-energy:hover {
     background: rgb(150, 229, 194);
     color: white;
-    
+
 }
 
 .vision-elements .green-btn {
@@ -387,10 +387,11 @@
     border-radius: 16px;
     background: rgb(247, 235, 207);
 }
-.vision-elements .vision-modern:hover{
+
+.vision-elements .vision-modern:hover {
     background: rgb(252, 219, 144);
     color: white;
-    
+
 }
 
 .vision-elements .modern-btn {
@@ -419,10 +420,215 @@
 
 /* Quote styles */
 
-.quote{
+/* .quote {
+    
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    padding-left: 160px;
+} */
+.quote .quote-element {
     background-image: url("/assets/quote-bg.png");
     background-repeat: no-repeat;
+
 }
-.quote .quote-write{
-    
+
+.quote .quote-write {
+    width: 1232px;
+    height: 96px;
+    gap: 12;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 184px;
+
+}
+
+.quote .quote-title {
+    width: 1232px;
+    height: 24px;
+    gap: 4;
+    margin: 4px 0px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 12px;
+    padding-left: 184px;
+}
+
+.quote .quote-subtitle {
+    width: 1232px;
+    height: 24px;
+    gap: 4;
+    margin: 4px 0px;
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 4px;
+    padding-left: 184px;
+
+}
+
+/* Recent Styles */
+
+.recent {
+    width: 1280px;
+    height: 1406px;
+    gap: 32;
+    padding: 0px;
+    margin: 80px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recent .recent-head {
+    width: 1280px;
+    height: 48px;
+    gap: 24;
+    padding: 0px;
+    margin: 24px 0px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 160px;
+}
+
+.recent .recent-subtitle {
+    width: 1280px;
+    height: 48px;
+    gap: 12;
+    padding: 0px;
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 160px;
+
+}
+
+
+
+.recent .recent-element {
+    width: 1280px;
+    height: 402px;
+    gap: 32;
+    padding: 48px;
+    margin: 24px 0px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-radius: 24px;
+    border: none;
+    background: rgb(247, 247, 247);
+    align-self: stretch;
+    margin-left: 160px;
+
+
+}
+
+.recent img {
+    width: 408px;
+    height: 306px;
+    margin: 0px 32px;
+    border-radius: 24px;
+}
+
+.recent .recent-element-content {
+    width: 744px;
+    height: 210px;
+    gap: 12;
+    padding: 0px;
+}
+
+.recent .recent-element-content .element-title {
+
+    width: 744px;
+    height: 38px;
+    gap: 12;
+    padding: 0px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.recent .recent-element-content .sub-picture {
+    width: 134px;
+    height: 40px;
+    margin: 12px 0px;
+}
+
+.recent .recent-element-content .time-date {
+    width: 400px;
+    height: 24px;
+    gap: 12;
+    padding: 0px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.recent .recent-element-content .element-descrip {
+
+    width: 744px;
+    height: 72px;
+    gap: 12;
+    padding: 0px;
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.recent .recent-element-content .element-btn {
+    width: 139px;
+    height: 48px;
+    gap: 48;
+    padding: 13px 26px 13px 26px;
+    margin: 32px 0px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+
 }
